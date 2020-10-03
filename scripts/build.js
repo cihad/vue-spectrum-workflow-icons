@@ -10,7 +10,6 @@ fs.readdir(iconDir, (err, items) => {
 
 	items.forEach(item => {
 		let iconName = path.basename(item, '.svg')
-		if (/^\d/.test(iconName)) return
 
 		fs.readFile(path.join(iconDir, item), 'utf8', (err, data) => {
 			svgToVue(data).then(component => {
