@@ -1,8 +1,8 @@
 # vue-spectrum-workflow-icons
 
-This library is auto generated from `@adobe/spectrum-css-workflow-icons`
+This library is auto generated from `@adobe/spectrum-css-workflow-icons`. You can view all icons from [spectrum.adobe.com/page/icons](https://spectrum.adobe.com/page/icons/)
 
-You can these icons by following instructions:
+For use these icons your Vue app:
 
 Firstly install the package:
 
@@ -12,7 +12,7 @@ or
 
 Then you can use:
 
-`html
+```html
 <template>
 	<div>
 		<beaker />
@@ -26,11 +26,11 @@ export default {
 	components: { Beader }
 }
 </script>
-`
+```
 
 That's all. If you wish you can create wrap an `Icon` component for don't repeat yourself.
 
-`Icon.vue`:
+`Icon.vue` file:
 
 ```html
 <template>
