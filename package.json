@@ -1,0 +1,17 @@
+{
+  "name": "vue-spectrum-workflow-icons",
+  "version": "0.0.0",
+  "description": "Adobe Spectrum Workflow Icons for Vue",
+  "main": "index.js",
+  "scripts": {
+    "build:icons": "node ./scripts/build.js"
+  },
+  "keywords": ["spectrum", "icon", "icons", "vue"],
+  "author": "Cihad Paksoy <cihadp@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@adobe/spectrum-css-workflow-icons": "^1.1.0",
+    "svg-to-vue": "^0.7.0",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
